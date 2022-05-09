@@ -1,1 +1,4 @@
-﻿Console.WriteLine("Logical Programs");
+﻿using LogicalPrograms;
+
+Console.WriteLine("Logical Programs");
+FibonacciSeries.Fibonacci();
