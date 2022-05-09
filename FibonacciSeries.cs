@@ -10,10 +10,13 @@ namespace LogicalPrograms
     {
         public static void Fibonacci()
         {
+            //Local variable declaration and user input
             int first =0 , second = 1 , third;
             Console.Write("\nEnter the End Length of Fibonacci Sries : ");
             int last = Convert.ToInt32(Console.ReadLine());
             Console.Write("\n"+first+" "+second+" ");
+            
+            //Logic
             for (int i = 2 ; i <= last ; i++)
             {
                 third = first + second;

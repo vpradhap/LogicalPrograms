@@ -10,9 +10,12 @@ namespace LogicalPrograms
     {
         public static void Perfect()
         {
+            //Local variable declaration and user input
             int temp = 0;
             Console.Write("\nEnter The Number to Check : ");
             int num = Convert.ToInt32(Console.ReadLine());
+
+            //Logic
             for (int i = 1; i <= num/2; i++)
             {
                 
