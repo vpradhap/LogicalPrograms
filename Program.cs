@@ -8,6 +8,7 @@ Console.WriteLine("2 - Perfect Number Program");
 Console.WriteLine("3 - Prime Number Program");
 Console.WriteLine("4 - Reverse a Number Program");
 Console.WriteLine("5 - StopWatch Program");
+Console.WriteLine("6 - Coupon Numbers Program");
 
 int flag = 0;
 while(flag == 0)
@@ -33,6 +34,9 @@ while(flag == 0)
             break;
         case 5:
             StopWatch.Stop();
+            break;
+        case 6:
+            CouponNumbers.CouponNumber();
             break;
         default:
             Console.WriteLine("Invalid Pick");
